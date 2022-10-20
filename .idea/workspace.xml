@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aaac4ca4-b323-4845-a961-11340d5acbd0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/domain/EmployeeCertificate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/dto/CertificateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/dto/CommuneDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/dto/DistrictDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/dto/EmployeeCertificateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/dto/EmployeeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/dto/ProvinceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/repository/CertificateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/repository/CommuneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/repository/DistrictRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/repository/EmployeeCertificateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/repository/ProvinceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/rest/RestCertificateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/rest/RestCommuneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/rest/RestDistrictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/rest/RestEmployeeCertificateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/rest/RestEmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/rest/RestProvinceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/CertificateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/CommuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/DistrictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/EmployeeCertificateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/impl/CertificateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/impl/CommuneServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/impl/EmployeeCertificateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/support" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/support/ErrorHandle" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/support/ErrorHandle/CertificateHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/support/ErrorHandle/CommuneHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/support/ErrorHandle/DistrictHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/support/ErrorHandle/EmployeeCertificateHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/support/ErrorHandle/EmployeeHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/support/ErrorHandle/ProvinceHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/support/ModelMapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/support/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/support/StatusMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-api/target" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/da-app/da-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/da-app/target" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/da.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/da-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/da-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/AFFakeConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/AFFakeConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/dto/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/dto/CategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/rest/RestCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/rest/RestCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/utils/ImportExportExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/src/main/java/com/globits/da/utils/ImportExportExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/AFFakeConstants$StaffType.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/AFFakeConstants$StaffType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/AFFakeConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/AFFakeConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/Constants$ChannelAds.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/Constants$ChannelAds.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/Constants$Social_Netword.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/Constants$Social_Netword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/Constants$StaffType.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/Constants$StaffType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/domain/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/domain/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/dto/CategoryDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/dto/CategoryDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/dto/search/SearchDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/dto/search/SearchDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/repository/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/repository/CategoryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/rest/RestCategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/rest/RestCategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/rest/RestDAFileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/rest/RestDAFileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/utils/DateTimeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/utils/DateTimeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/utils/ImportExportExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-api/target/classes/com/globits/da/utils/ImportExportExcelUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/src/main/java/com/globits/DAApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/src/main/java/com/globits/DAApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/src/main/java/com/globits/security/rest/TokenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/src/main/java/com/globits/security/rest/TokenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/target/classes/com/globits/DAApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/target/classes/com/globits/DAApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/DatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/DatabaseConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/MethodSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/MethodSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/OAuth2AuthorizationServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/OAuth2AuthorizationServerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/OAuth2ResourceServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/OAuth2ResourceServerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/RevokeTokenEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/RevokeTokenEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/WebInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/WebInit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/target/classes/com/globits/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/target/classes/com/globits/listeners/ApplicationStartupListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/target/classes/com/globits/listeners/ApplicationStartupListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/target/classes/com/globits/security/rest/TokenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/target/classes/com/globits/security/rest/TokenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da-app/target/test-classes/ServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/da-app/target/test-classes/ServiceTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2F4Ppr0vz4lzW5q0galEqdjT9NX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.globits.da.service.impl" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="da-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.globits.DAApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="showImplicitBeans" value="false" />
+    <option name="showInfrastructureBeans" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\ADMIN\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\NThanh_L3" />
+          <option name="myCopyRoot" value="E:\NThanh_L3" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\NThanh_L3" />
+          <option name="myCopyRoot" value="E:\NThanh_L3" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aaac4ca4-b323-4845-a961-11340d5acbd0" name="Default Changelist" comment="" />
+      <created>1663748573136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663748573136</updated>
+      <workItem from="1663748577052" duration="3709000" />
+      <workItem from="1663768020814" duration="7380000" />
+      <workItem from="1663816070831" duration="3663000" />
+      <workItem from="1663829631291" duration="9838000" />
+      <workItem from="1663851373697" duration="10659000" />
+      <workItem from="1663915740760" duration="10436000" />
+      <workItem from="1663951304128" duration="381000" />
+      <workItem from="1664006451532" duration="11698000" />
+      <workItem from="1664097893551" duration="5727000" />
+      <workItem from="1664118545787" duration="5339000" />
+      <workItem from="1664174240960" duration="14288000" />
+      <workItem from="1664203568992" duration="6647000" />
+      <workItem from="1664252687003" duration="3996000" />
+      <workItem from="1664260628511" duration="15123000" />
+      <workItem from="1664288764868" duration="7873000" />
+      <workItem from="1664349006112" duration="18569000" />
+      <workItem from="1664376427553" duration="7971000" />
+      <workItem from="1664392549178" duration="2540000" />
+      <workItem from="1664402030591" duration="2193000" />
+      <workItem from="1664434001285" duration="13558000" />
+      <workItem from="1664465448545" duration="1873000" />
+      <workItem from="1664475736312" duration="3233000" />
+      <workItem from="1664517178624" duration="7566000" />
+      <workItem from="1664550560528" duration="667000" />
+      <workItem from="1664562818029" duration="1632000" />
+      <workItem from="1664598347161" duration="5388000" />
+      <workItem from="1664631424735" duration="7447000" />
+      <workItem from="1664655213342" duration="3868000" />
+      <workItem from="1664689816330" duration="2663000" />
+      <workItem from="1664779266366" duration="14393000" />
+      <workItem from="1664808206836" duration="3813000" />
+      <workItem from="1664823894073" duration="2510000" />
+      <workItem from="1664859277408" duration="1789000" />
+      <workItem from="1664865002040" duration="14518000" />
+      <workItem from="1664896772716" duration="4305000" />
+      <workItem from="1664951713852" duration="13054000" />
+      <workItem from="1664980509861" duration="5990000" />
+      <workItem from="1664997893383" duration="6152000" />
+      <workItem from="1665042291888" duration="7276000" />
+      <workItem from="1665068036939" duration="5854000" />
+      <workItem from="1665082752277" duration="1554000" />
+      <workItem from="1665115806213" duration="4775000" />
+      <workItem from="1665124917629" duration="13589000" />
+      <workItem from="1665139203609" duration="439000" />
+      <workItem from="1665156970167" duration="4419000" />
+      <workItem from="1665170518664" duration="3361000" />
+      <workItem from="1665214117117" duration="552000" />
+      <workItem from="1665214829745" duration="16054000" />
+      <workItem from="1665258146175" duration="1472000" />
+      <workItem from="1665260359374" duration="122000" />
+      <workItem from="1665302187756" duration="10449000" />
+      <workItem from="1665320440671" duration="2068000" />
+      <workItem from="1665325846718" duration="8816000" />
+      <workItem from="1665339817326" duration="5361000" />
+      <workItem from="1665372383222" duration="3342000" />
+      <workItem from="1665384208124" duration="11450000" />
+      <workItem from="1665402694239" duration="2088000" />
+      <workItem from="1665407393938" duration="7096000" />
+      <workItem from="1665471146195" duration="13659000" />
+      <workItem from="1665514720024" duration="13358000" />
+      <workItem from="1665565566499" duration="6190000" />
+      <workItem from="1665586302833" duration="7704000" />
+      <workItem from="1665643081506" duration="14639000" />
+      <workItem from="1665672318237" duration="7387000" />
+      <workItem from="1665685766395" duration="6212000" />
+      <workItem from="1665730314180" duration="11505000" />
+      <workItem from="1665758948434" duration="7393000" />
+      <workItem from="1665769411567" duration="8588000" />
+      <workItem from="1665823359328" duration="12357000" />
+      <workItem from="1665858830503" duration="1577000" />
+      <workItem from="1665894533391" duration="5437000" />
+      <workItem from="1665910981194" duration="13090000" />
+      <workItem from="1665931456849" duration="8111000" />
+      <workItem from="1665943534150" duration="5848000" />
+      <workItem from="1665979133710" duration="5834000" />
+      <workItem from="1665989217512" duration="13964000" />
+      <workItem from="1666017916934" duration="5647000" />
+      <workItem from="1666036543761" duration="2786000" />
+      <workItem from="1666075645598" duration="13913000" />
+      <workItem from="1666101738481" duration="7555000" />
+      <workItem from="1666116087386" duration="20589000" />
+      <workItem from="1666158570419" duration="125000" />
+      <workItem from="1666164222476" duration="567000" />
+      <workItem from="1666165013196" duration="41000" />
+      <workItem from="1666165172958" duration="168000" />
+      <workItem from="1666170242175" duration="62000" />
+      <workItem from="1666170805393" duration="6000" />
+      <workItem from="1666170883906" duration="261000" />
+      <workItem from="1666173438612" duration="1046000" />
+      <workItem from="1666248757498" duration="1625000" />
+      <workItem from="1666256215153" duration="2121000" />
+      <workItem from="1666259817566" duration="2883000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/da-api/src/main/java/com/globits/da/service/BaseService.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.aop.framework.ProxyFactory" memberName="listeners" />
+        <PinnedItemInfo parentTag="org.apache.poi.xssf.usermodel.XSSFWorkbook" memberName="sheets" />
+        <PinnedItemInfo parentTag="com.sun.proxy.$Proxy171" memberName="h" />
+        <PinnedItemInfo parentTag="com.globits.da.domain.District$HibernateProxy$wpYD3Ssx" memberName="uuidKey" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ThucTap$DAApplication.ic" NAME="DAApplication Coverage Results" MODIFIED="1664403549082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
