@@ -147,17 +147,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="da-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.globits.DAApplication" />
@@ -292,6 +281,7 @@
       <workItem from="1666248757498" duration="1625000" />
       <workItem from="1666256215153" duration="2121000" />
       <workItem from="1666259817566" duration="2883000" />
+      <workItem from="1667103744780" duration="44000" />
     </task>
     <servers />
   </component>
